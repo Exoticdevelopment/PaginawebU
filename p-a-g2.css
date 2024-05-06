@@ -1,0 +1,227 @@
+.mask-group-icon1,
+.python {
+  position: absolute;
+  z-index: 1;
+}
+.mask-group-icon1 {
+  top: -15px;
+  left: 723px;
+  width: 953px;
+  height: 1154px;
+}
+.python {
+  top: 657px;
+  left: 121px;
+  font-size: 18.7px;
+  font-weight: 600;
+  font-family: var(--font-poppins);
+  display: flex;
+  align-items: center;
+  min-width: 67px;
+}
+.div,
+.div1 {
+  height: 8px;
+  max-width: 100%;
+}
+.div1 {
+  margin-left: -171px;
+  flex: 1;
+  position: relative;
+  background: linear-gradient(90deg, #efeee7 5%, #1edba2 50%, #00ff57 95%);
+}
+.div {
+  position: absolute;
+  top: 690.8px;
+  left: 121px;
+  border-radius: 4px;
+  background-color: #ece6fa;
+  width: 439px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0.2px 5px 0 0;
+  box-sizing: border-box;
+  z-index: 1;
+}
+.github {
+  position: relative;
+  font-size: var(--font-size-base);
+  text-transform: uppercase;
+  font-weight: 500;
+  font-family: var(--font-poppins);
+  color: var(--color-white);
+  text-align: left;
+  display: inline-block;
+  min-width: 59px;
+}
+.a {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-xs-2) 28px var(--padding-smi-2) var(--padding-9xl-8);
+  background-color: transparent;
+  position: absolute;
+  top: 758px;
+  left: 373px;
+  border-radius: var(--br-13xl);
+  background: linear-gradient(90deg, #00ff57, #1edba2 50%, #00ff57);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  z-index: 1;
+}
+.desde-entonces-he,
+.hola-soy-miguel1 {
+  margin: 0;
+}
+.hola-soy-miguel-container1 {
+  position: absolute;
+  top: 367px;
+  left: 95px;
+  font-size: var(--font-size-base);
+  font-weight: 600;
+  display: inline-block;
+  width: 492px;
+  height: 198px;
+  z-index: 2;
+}
+.frame-child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #000;
+  width: 100%;
+  height: 100%;
+}
+.avatar2png-1-icon {
+  position: absolute;
+  top: 130px;
+  left: 1025px;
+  width: 547px;
+  height: 549px;
+  object-fit: contain;
+  z-index: 2;
+}
+.rectangle-parent {
+  position: absolute;
+  top: 0;
+  left: -180px;
+  width: 1659px;
+  height: 1171px;
+}
+.about-me,
+.exoticdev1,
+.skills {
+  margin: 0;
+  position: absolute;
+  font-family: inherit;
+  z-index: 3;
+}
+.exoticdev1 {
+  top: 90px;
+  left: 134px;
+  font-size: var(--font-size-51xl);
+  font-style: italic;
+  font-weight: 900;
+}
+.about-me,
+.skills {
+  top: 264px;
+  left: 142px;
+  font-size: inherit;
+  font-weight: 600;
+}
+.skills {
+  top: 573px;
+  left: 208px;
+}
+.certificaciones {
+  position: relative;
+  font-size: var(--font-size-base);
+  text-transform: uppercase;
+  font-weight: 500;
+  font-family: var(--font-poppins);
+  color: var(--color-white);
+  text-align: left;
+}
+.a1 {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-xs-2) 28.1px var(--padding-smi-2) var(--padding-9xl-8);
+  background-color: transparent;
+  position: absolute;
+  top: 757px;
+  left: 119px;
+  border-radius: var(--br-13xl);
+  background: linear-gradient(90deg, #00ff57 5%, #1edba2 50%, #00ff57 95%);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  z-index: 3;
+}
+.python-parent {
+  position: absolute;
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  left: 20px;
+  width: 1440px;
+  max-width: 100%;
+}
+.main1 {
+  margin-left: -20px;
+  height: 1024px;
+  width: 2419px;
+  position: relative;
+  background-color: black;
+  overflow: hidden;
+  flex-shrink: 0;
+  debug_commit: 1de1738;
+  max-width: 168%;
+  text-align: left;
+  font-size: var(--font-size-39xl);
+  color: var(--color-white);
+  font-family: var(--font-nunito);
+}
+.container,
+.pag2 {
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.container {
+  width: 1440px;
+  flex-shrink: 0;
+  max-width: 100%;
+}
+.pag2 {
+  position: relative;
+  background-color: black;
+  width: 100%;
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 767px) {
+  .exoticdev1 {
+    font-size: var(--font-size-37xl);
+  }
+  .about-me,
+  .skills {
+    font-size: var(--font-size-27xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .exoticdev1 {
+    font-size: var(--font-size-23xl);
+  }
+  .about-me,
+  .skills {
+    font-size: var(--font-size-16xl);
+  }
+}

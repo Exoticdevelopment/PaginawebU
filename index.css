@@ -1,0 +1,256 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Nunito', sans-serif; /* Cambiado el tipo de fuente del cuerpo */
+
+}
+
+
+
+.child {
+  height: 1190.5px;
+  width: 1659px;
+  position: absolute;
+  bottom: -166.5px;
+  left: -160px;
+}
+
+/* El resto de tus estilos CSS aquí */
+.desde-muy-joven,
+.hola-soy-miguel,
+.un-apasionado-por {
+  margin: 0;
+}
+.hola-soy-miguel-container {
+  margin: 0;
+  flex: 1;
+  position: relative;
+  font-size: inherit;
+  font-weight: 600;
+  font-family: inherit;
+  display: inline-block;
+  max-width: 100%;
+  z-index: 2;
+}
+.mask-group-icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+.exoticdev {
+  margin: 0;
+  position: absolute;
+  top: 177px;
+  left: 119px;
+  font-size: inherit;
+  font-style: italic;
+  font-weight: 900;
+  font-family: inherit;
+  z-index: 2;
+}
+.developer-info {
+  position: absolute;
+  top: 28px;
+  left: 191px;
+  width: 594px;
+  height: 450px;
+  overflow: hidden;
+  z-index: 5;
+}
+.profile-details {
+  height: 1075px;
+  width: 946px;
+  position: absolute;
+  margin: 0 !important;
+  right: -177px;
+  bottom: -513px;
+  font-size: var(--font-size-51xl);
+}
+.profile-header {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+  max-width: 100%;
+}
+.explorando-el-universo {
+  flex: 1;
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  max-width: 100%;
+  z-index: 3;
+}
+.explorando-el-universo-del-des-wrapper,
+.profile-header-parent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.explorando-el-universo-del-des-wrapper {
+  width: 504px;
+  flex-direction: row;
+  padding: 0 6px;
+  box-sizing: border-box;
+  font-size: var(--font-size-base);
+}
+.profile-header-parent {
+  width: 593px;
+  flex-direction: column;
+  gap: var(--gap-36xl);
+}
+.navigation-card-child {
+  height: 64px;
+  width: 191px;
+  position: relative;
+  border-radius: var(--br-31xl);
+  background-color: var(--color-gray);
+  display: none;
+}
+.cv {
+  position: relative;
+  font-weight: 900;
+  display: inline-block;
+  min-width: 30px;
+  z-index: 4;
+}
+.navigation-card {
+  flex: 1;
+  border-radius: var(--br-31xl);
+  background-color: var(--color-gray);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-mid) 65px var(--padding-lg);
+  box-sizing: border-box;
+  min-width: 124px;
+  z-index: 3;
+}
+.acerca-de-mi {
+  position: relative;
+  font-size: var(--font-size-2xl);
+  font-weight: 900;
+  font-family: var(--font-nunito);
+  color: var(--color-white);
+  text-align: left;
+}
+.acerca {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-mid) var(--padding-lg) var(--padding-lg);
+  background-color: rgba(217, 217, 217, 0.5);
+  border-radius: var(--br-31xl);
+  display: inline-block; /* Agregado */
+  z-index: 3;
+}
+.acerca:hover {
+  background-color: rgba(191, 191, 191, 0.5);
+}
+.navigation-container,
+.navigation-container-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.navigation-container {
+  flex: 1;
+  flex-wrap: wrap;
+  gap: 47px;
+}
+.navigation-container-wrapper {
+  width: 459px;
+  padding: 0 15px;
+  box-sizing: border-box;
+  font-size: var(--font-size-2xl);
+}
+.avatarpng-1-icon {
+  position: absolute;
+  top: 138px;
+  left: 0;
+  width: 512px;
+  height: 512px;
+  object-fit: cover;
+}
+.frame1 {
+  height: 650px;
+  width: 512px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  max-width: 100%;
+}
+.avatar-2,
+.frame2 {
+  width: 512px;
+  display: none;
+}
+.avatar-2 {
+  position: absolute;
+  top: 213px;
+  left: 0;
+  height: 512px;
+}
+.frame2 {
+  height: 725px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  max-width: 100%;
+}
+.frame,
+.frame-parent {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.frame {
+  width: 564px;
+  margin: 0 !important;
+  position: absolute;
+  top: 0;
+  right: -475px;
+  overflow: hidden;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding: 0 0 75px;
+  box-sizing: border-box;
+  z-index: 6;
+}
+.frame-parent {
+  width: 917px;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 400px 147px 167px;
+  position: relative;
+  gap: 110px;
+}
+
+.main {
+  background-color: black;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 29px 4px;
+  position: relative;
+  max-width: 167%;
+  text-align: left;
+  font-size: 40px;
+  color: var(--color-white);
+  font-family: var(--font-nunito);
+}
+
